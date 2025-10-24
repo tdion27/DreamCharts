@@ -1,0 +1,85 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    /**
+     * @description Allows a user to manage their own Last.fm accounts.
+     * @path /users/{userId}/lastfm_accounts/{accountId}
+     * @allow (create) User 'user123' can create an account with accountId 'account456' if userId matches auth.uid.
+     * @allow (get) User 'user123' can get their account 'account456'.
+     * @allow (update) User 'user123' can update their account 'account456'.
+     * @allow (delete) User 'user123' can delete their account 'account456'.
+     * @deny (create) User 'user123' cannot create an account with accountId 'account456' if userId does not match auth.uid.
+     * @deny (get) User 'user456' cannot get account 'account456' under user 'user123'.
+     * @deny (update) User 'user456' cannot update account 'account456' under user 'user123'.
+     * @deny (delete) User 'user456' cannot delete account 'account456' under user 'user123'.
+     * @principle Enforces document ownership for writes.
+     */
+    match /users/{userId}/lastfm_accounts/{accountId} {
+      allow get: if isOwner(userId);
+      allow list: if false; // Disallow listing
+      allow create: if isOwner(userId);
+      allow update: if isOwner(userId);
+      allow delete: if isOwner(userId);
+    }
+
+    /**
+     * @description Manages access to weekly charts using a 'members' map for role-based permissions.
+     * @path /weekly_charts/{weeklyChartId}
+     * @allow (create) User 'user123' can create a chart if they are the owner (ownerId in data matches auth.uid).
+     * @allow (get) Any user can read (get) a weekly chart.
+     * @allow (list) Any user can list weekly charts.
+     * @allow (update) User 'user123' can update a chart if they are an editor or owner in the 'members' map.
+     * @allow (delete) User 'user123' can delete a chart if they are the owner in the 'members' map.
+     * @deny (create) User 'user456' cannot create a chart for 'user123' (ownerId in data does not match auth.uid).
+     * @deny (update) User 'user456' cannot update a chart if they are not in the 'members' map.
+     * @deny (delete) User 'user456' cannot delete a chart if they are not the owner in the 'members' map.
+     * @principle Enforces role-based access control using a denormalized 'members' map.
+     */
+    match /weekly_charts/{weeklyChartId} {
+      allow get: if true;
+      allow list: if true;
+      allow create: if isSignedIn() && request.resource.data.ownerId == request.auth.uid;
+      allow update: if isSignedIn() && (isEditor(weeklyChartId) || isChartOwner(weeklyChartId));
+      allow delete: if isSignedIn() && isChartOwner(weeklyChartId);
+    }
+
+    /**
+     * @description Enforces access control for chart tracks based on the parent weekly chart's permissions.
+     * @path /weekly_charts/{weeklyChartId}/chart_tracks/{chartTrackId}
+     * @allow (create) User 'user123' can create a chart track if they are an editor or owner of the parent chart.
+     * @allow (get) Any user can read (get) a chart track.
+     * @allow (list) Any user can list chart tracks.
+     * @allow (update) User 'user123' can update a chart track if they are an editor or owner of the parent chart.
+     * @allow (delete) User 'user123' can delete a chart track if they are the owner of the parent chart.
+     * @deny (create) User 'user456' cannot create a chart track if they are not in the 'members' map of the parent chart.
+     * @deny (update) User 'user456' cannot update a chart track if they are not in the 'members' map of the parent chart.
+     * @deny (delete) User 'user456' cannot delete a chart track if they are not the owner of the parent chart.
+     * @principle Inherits authorization from the parent document, ensuring consistent access control.
+     */
+    match /weekly_charts/{weeklyChartId}/chart_tracks/{chartTrackId} {
+      allow get: if true;
+      allow list: if true;
+      allow create: if isSignedIn() && (isEditor(weeklyChartId) || isChartOwner(weeklyChartId));
+      allow update: if isSignedIn() && (isEditor(weeklyChartId) || isChartOwner(weeklyChartId));
+      allow delete: if isSignedIn() && isChartOwner(weeklyChartId);
+    }
+  }
+
+  // Helper functions
+  function isSignedIn() {
+    return request.auth != null;
+  }
+
+  function isOwner(userId) {
+    return isSignedIn() && request.auth.uid == userId;
+  }
+
+  function isEditor(weeklyChartId) {
+    return get(/databases/$(database)/documents/weekly_charts/$(weeklyChartId)).data.members[request.auth.uid] == 'editor';
+  }
+
+  function isChartOwner(weeklyChartId) {
+    return get(/databases/$(database)/documents/weekly_charts/$(weeklyChartId)).data.ownerId == request.auth.uid;
+  }
+}

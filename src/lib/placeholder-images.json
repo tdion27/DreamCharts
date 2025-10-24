@@ -1,0 +1,244 @@
+{
+  "placeholderImages": [
+    {
+      "id": "album1",
+      "description": "Abstract album art 1",
+      "imageUrl": "https://images.unsplash.com/photo-1667236449230-3f6e5fb982a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMG11c2ljfGVufDB8fHx8MTc2MDczMTUwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract music"
+    },
+    {
+      "id": "album2",
+      "description": "Abstract album art 2",
+      "imageUrl": "https://images.unsplash.com/photo-1723283042251-48ed99e97749?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dmlicmFudCUyMHBhdHRlcm58ZW58MHx8fHwxNzYwODIwMTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vibrant pattern"
+    },
+    {
+      "id": "album3",
+      "description": "Abstract album art 3",
+      "imageUrl": "https://images.unsplash.com/photo-1604935067269-27c7e8b36618?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxnZW9tZXRyaWMlMjBzaGFwZXN8ZW58MHx8fHwxNzYwNzQ3Mjc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "geometric shapes"
+    },
+    {
+      "id": "album4",
+      "description": "Abstract album art 4",
+      "imageUrl": "https://images.unsplash.com/photo-1714779573250-36242918e044?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2xvcmZ1bCUyMHdhdmVzfGVufDB8fHx8MTc2MDc3MzkzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "colorful waves"
+    },
+    {
+      "id": "album5",
+      "description": "Abstract album art 5",
+      "imageUrl": "https://images.unsplash.com/photo-1614292253389-bd2c1f89cd0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkYXJrJTIwdGV4dHVyZXxlbnwwfHx8fDE3NjA3MzYxMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dark texture"
+    },
+    {
+      "id": "album6",
+      "description": "Abstract album art 6",
+      "imageUrl": "https://images.unsplash.com/photo-1646977858742-0a21edecc809?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnbG93aW5nJTIwbGluZXN8ZW58MHx8fHwxNzYwODAzNzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "glowing lines"
+    },
+    {
+      "id": "album7",
+      "description": "Abstract album art 7",
+      "imageUrl": "https://images.unsplash.com/photo-1698077419459-69c03c36e1f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyZXRybyUyMGRlc2lnbnxlbnwwfHx8fDE3NjA4MjAxMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "retro design"
+    },
+    {
+      "id": "album8",
+      "description": "Abstract album art 8",
+      "imageUrl": "https://images.unsplash.com/photo-1683659635051-39336c5476b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtaW5pbWFsaXN0JTIwYXJ0fGVufDB8fHx8MTc2MDgyMDEwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minimalist art"
+    },
+    {
+      "id": "album9",
+      "description": "Abstract album art 9",
+      "imageUrl": "https://images.unsplash.com/photo-1580133318324-f2f76d987dd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxuYXR1cmUlMjBhYnN0cmFjdHxlbnwwfHx8fDE3NjA3ODg3NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nature abstract"
+    },
+    {
+      "id": "album10",
+      "description": "Abstract album art 10",
+      "imageUrl": "https://images.unsplash.com/photo-1520034475321-cbe63696469a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMHN0YXJzfGVufDB8fHx8MTc2MDc2NDM4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "space stars"
+    },
+    {
+      "id": "album11",
+      "description": "Abstract album art 11",
+      "imageUrl": "https://images.unsplash.com/photo-1597393118123-9de58a9c01fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx1cmJhbiUyMGFydHxlbnwwfHx8fDE3NjA3NjYwMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "urban art"
+    },
+    {
+      "id": "album12",
+      "description": "Abstract album art 12",
+      "imageUrl": "https://images.unsplash.com/photo-1541356665065-22676f35dd40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsaXF1aWQlMjBtZXRhbHxlbnwwfHx8fDE3NjA3MzE4MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "liquid metal"
+    },
+    {
+      "id": "album13",
+      "description": "Abstract album art 13",
+      "imageUrl": "https://images.unsplash.com/photo-1675208986455-372dc9d0029a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkcmVhbXklMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzYwNzgxNTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dreamy landscape"
+    },
+    {
+      "id": "album14",
+      "description": "Abstract album art 14",
+      "imageUrl": "https://images.unsplash.com/photo-1675326570919-946d728e9a25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmdXR1cmlzdGljJTIwY2l0eXxlbnwwfHx8fDE3NjA3MzE5Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "futuristic city"
+    },
+    {
+      "id": "album15",
+      "description": "Abstract album art 15",
+      "imageUrl": "https://images.unsplash.com/photo-1729761137674-9a3a841f7cea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnbGl0Y2glMjBhcnR8ZW58MHx8fHwxNzYwNzM1MzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "glitch art"
+    },
+    {
+      "id": "album16",
+      "description": "Abstract album art 16",
+      "imageUrl": "https://images.unsplash.com/photo-1527745592400-8c411e7717ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvY2VhbiUyMHdhdmVzfGVufDB8fHx8MTc2MDczMTkzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ocean waves"
+    },
+    {
+      "id": "album17",
+      "description": "Abstract album art 17",
+      "imageUrl": "https://images.unsplash.com/photo-1533130061792-64b345e4a833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3VudGFpbiUyMHBlYWt8ZW58MHx8fHwxNzYwNzMzNTc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain peak"
+    },
+    {
+      "id": "album18",
+      "description": "Abstract album art 18",
+      "imageUrl": "https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxuaWdodCUyMHNreXxlbnwwfHx8fDE3NjA3MzUzNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "night sky"
+    },
+    {
+      "id": "album19",
+      "description": "Abstract album art 19",
+      "imageUrl": "https://images.unsplash.com/photo-1520052600632-67420194a58f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmb3Jlc3QlMjBwYXRofGVufDB8fHx8MTc2MDczMzU3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "forest path"
+    },
+    {
+      "id": "album20",
+      "description": "Abstract album art 20",
+      "imageUrl": "https://images.unsplash.com/photo-1511860810434-a92f84c6f01e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZXNlcnQlMjBkdW5lc3xlbnwwfHx8fDE3NjA3NTQ3Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desert dunes"
+    },
+    {
+      "id": "album21",
+      "description": "Abstract album art 21",
+      "imageUrl": "https://images.unsplash.com/photo-1443926818681-717d074a57af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhdXJvcmElMjBib3JlYWxpc3xlbnwwfHx8fDE3NjA3NzEzMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "aurora borealis"
+    },
+    {
+      "id": "album22",
+      "description": "Abstract album art 22",
+      "imageUrl": "https://images.unsplash.com/photo-1626908013351-800ddd734b8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuZW9uJTIwbGlnaHRzfGVufDB8fHx8MTc2MDczMzMxNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "neon lights"
+    },
+    {
+      "id": "album23",
+      "description": "Abstract album art 23",
+      "imageUrl": "https://images.unsplash.com/photo-1551771685-c367c9127a03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjeWJlcnB1bmslMjBjaXR5fGVufDB8fHx8MTc2MDczMzY0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cyberpunk city"
+    },
+    {
+      "id": "album24",
+      "description": "Abstract album art 24",
+      "imageUrl": "https://images.unsplash.com/photo-1542216515-4e6a586c1ca0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwcGhvdG98ZW58MHx8fHwxNzYwNzU1NDg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage photo"
+    },
+    {
+      "id": "album25",
+      "description": "Abstract album art 25",
+      "imageUrl": "https://images.unsplash.com/photo-1713032396284-9f5c6595359c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3YXRlcmNvbG9yJTIwcGFpbnR8ZW58MHx8fHwxNzYwODIwMTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "watercolor paint"
+    },
+    {
+      "id": "album26",
+      "description": "Abstract album art 26",
+      "imageUrl": "https://images.unsplash.com/photo-1578301996581-bf7caec556c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvaWwlMjBwYWludGluZ3xlbnwwfHx8fDE3NjA3NDAxMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "oil painting"
+    },
+    {
+      "id": "album27",
+      "description": "Abstract album art 27",
+      "imageUrl": "https://images.unsplash.com/photo-1454191297004-cefa4b1042d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZW5jaWwlMjBza2V0Y2h8ZW58MHx8fHwxNzYwNzY5MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pencil sketch"
+    },
+    {
+      "id": "album28",
+      "description": "Abstract album art 28",
+      "imageUrl": "https://images.unsplash.com/photo-1677478683125-1064ea943768?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hhcmNvYWwlMjBkcmF3aW5nfGVufDB8fHx8MTc2MDgwNzcxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "charcoal drawing"
+    },
+    {
+      "id": "album29",
+      "description": "Abstract album art 29",
+      "imageUrl": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwb3AlMjBhcnR8ZW58MHx8fHwxNzYwNzU2NjM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pop art"
+    },
+    {
+      "id": "album30",
+      "description": "Abstract album art 30",
+      "imageUrl": "https://images.unsplash.com/photo-1728219686377-509f37ff9cb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdHJlZXQlMjBncmFmZml0aXxlbnwwfHx8fDE3NjA4MTU1NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "street graffiti"
+    },
+    {
+      "id": "album31",
+      "description": "Abstract album art 31",
+      "imageUrl": "https://images.unsplash.com/photo-1432958576632-8a39f6b97dc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmFudGFzeSUyMHdvcmxkfGVufDB8fHx8MTc2MDczOTY5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fantasy world"
+    },
+    {
+      "id": "album32",
+      "description": "Abstract album art 32",
+      "imageUrl": "https://images.unsplash.com/photo-1655623768831-41bdd74087b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzY2ktZmklMjBjb25jZXB0fGVufDB8fHx8MTc2MDgyMDEwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi concept"
+    },
+    {
+      "id": "album33",
+      "description": "Abstract album art 33",
+      "imageUrl": "https://images.unsplash.com/photo-1720894817878-d4f3e1ee3707?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdGVhbXB1bmslMjBtYWNoaW5lfGVufDB8fHx8MTc2MDgyMDEwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "steampunk machine"
+    },
+    {
+      "id": "album34",
+      "description": "Abstract album art 34",
+      "imageUrl": "https://images.unsplash.com/photo-1657644003083-a6f358244cb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdXRlJTIwcm9ib3R8ZW58MHx8fHwxNzYwNzgyMzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cute robot"
+    },
+    {
+      "id": "album35",
+      "description": "Abstract album art 35",
+      "imageUrl": "https://images.unsplash.com/photo-1684862530433-71ccf1802f91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjA3MzExNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract portrait"
+    },
+    {
+      "id": "album36",
+      "description": "Abstract album art 36",
+      "imageUrl": "https://images.unsplash.com/photo-1739733269014-30bf428e8fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdXJyZWFsJTIwY29sbGFnZXxlbnwwfHx8fDE3NjA4MjAxMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "surreal collage"
+    },
+    {
+      "id": "album37",
+      "description": "Abstract album art 37",
+      "imageUrl": "https://images.unsplash.com/photo-1547634412-3f352eb240a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkb3VibGUlMjBleHBvc3VyZXxlbnwwfHx8fDE3NjA4MjAxMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "double exposure"
+    },
+    {
+      "id": "album38",
+      "description": "Abstract album art 38",
+      "imageUrl": "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsaWdodCUyMHRyYWlsc3xlbnwwfHx8fDE3NjA3NTg5Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "light trails"
+    },
+    {
+      "id": "album39",
+      "description": "Abstract album art 39",
+      "imageUrl": "https://images.unsplash.com/photo-1632163288485-fdcbea9cf99c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxib2tlaCUyMGVmZmVjdHxlbnwwfHx8fDE3NjA4MjAxMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bokeh effect"
+    },
+    {
+      "id": "album40",
+      "description": "Abstract album art 40",
+      "imageUrl": "https://images.unsplash.com/photo-1600597491816-a852224113e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFjcm8lMjBwaG90b2dyYXBoeXxlbnwwfHx8fDE3NjA4MjAxMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "macro photography"
+    }
+  ]
+}
